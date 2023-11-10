@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("Mountain-Kingdom.png");
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  width: 250px;
+}
+
+#box {
+  display: flex;
+  justify-content: center;
+}
+
+#display1 {
+  padding: 1em;
+  height: 300px;
+  width: 400px;
+  border: 10px solid white;
+  margin: 0 5px;
+  font-size: 1.3rem;
+  color: white; 
+  font-family: "Trebuchet MS", sans-serif;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  background-image: url("mk.jpg");
+  background-color: #fdfdfd;
+}
+
+#picture {
+  height: 800px;
+  width: 400px;
+}
+
+#display img {
+  height: 80px;
+  border-radius: 10px;
+}
+
+#buttons {
+  display: flex;
+  justify-content: center;
+  background-color: #333; 
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5,
+#btn6 {
+  display: inline-block;
+  background-color: greenyellow;
+  border: 4px solid #261297;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin: 0 5px;
+  cursor: pointer;
+  top: -2px;
+  position: relative;
+}
+
+#btn1:hover,
+#btn2:hover,
+#btn3:hover,
+#btn4:hover,
+#btn5:hover,
+#btn6:hover {
+  background-color: #1a6588;
+}
